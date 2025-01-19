@@ -1,3 +1,11 @@
+#Takie tam przypiski
+```
+%e           - liczba eulera
+%pi          - liczba pi
+%f / %F      - wartość boolean na False
+%t / %T      - wartość boolean na True
+%i / 1i / 1j - liczby urojone ( dla 3i = 3* %i
+```
 #Zadanko PIERWSZE
 ```
 M1=ones(10,10)*8-3*eye(10,10)
