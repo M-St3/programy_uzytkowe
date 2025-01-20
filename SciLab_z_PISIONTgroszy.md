@@ -31,9 +31,11 @@ C=[%T %F %T %F %T %F %T %F];
 ```
 # Zadanko CZWARTE
 ```
-M1=ones(10,10)*8-3*eye(10,10)
-inv(M1) - tutaj twoaj macierz robi fiflaka o 180 stopni, inaczej mówiąc jest odwrócona
-det(M1) - to Ci liczy wyznacznik z Macierzy
+s=0;
+for j=1:150;
+    s=s+j/2^(j-1)
+end
+s
 ```
 # Zadanko PIĄTE
 ```
